@@ -2,13 +2,17 @@ main
 {
     display: flex;
     flex-direction: row;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 20px 20px 2px hsla(241, 100%, 89%, 0.2);
 }
 
 
 h1 {
-    font-size: 68px;
+    font-size: 72px;
     font-weight: 800;
     color: white;
+    margin: 7px 0px;
 }
 
 p  
@@ -18,36 +22,39 @@ p
 
 .normal-text
 {
-
+    line-height: 1.28;
 }
 
 h3
 {
     display: block;
     width: 100%;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .dark-header 
 {
     text-align: left;
+    margin: 0;
+    width: 288px;
 }
 
 .light-header
 {
     text-align: center;
     color: hsl(241, 100%, 89%);
+    margin-bottom: 3px;
 }
-
 
 .card-left 
 {
-    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    box-sizing: border-box;
+    background-image: linear-gradient(hsl(252, 100%, 64%), hsl(241, 81%, 54%));
     text-align: center;
-    height: 392px;
-    width: 308px;
-    padding: 60px 30px;
+    height: 512px;
+    width: 368px;
+    padding: 42px 60px 44px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -57,30 +64,23 @@ h3
 
 .card-right
 {
+    box-sizing: border-box;
     background-color: white;
-    width: 308px;
-    padding: 60px 30px;
-    border-radius: 30px;
+    height: 512px;
+    width: 368px;
+    padding: 42px 56px 44px;
+    border-radius: 0 30px 30px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.stat
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 300px;
-}
-
 .result
 {
     height: 200px;
     width: 200px;
-    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0.3), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     text-align: center;
     display: flex;
@@ -91,7 +91,7 @@ h3
 
 .compliment-section 
 {
-
+    margin-bottom: 10px;
 }
 
 .compliment 
@@ -99,6 +99,7 @@ h3
     font-size: 32px;
     font-weight: 500;
     color: white;
+    margin-bottom: 19px;
 }
 
 .btn-continue 
@@ -114,15 +115,30 @@ h3
     border-width: 0px;
     width: 288px;
     margin-left: 2px;
+    margin: 10px 0 2px 2px;
 }
 
-.stat 
+
+.stat
 {
     display: flex;
     flex-direction: row;
-    padding: 18px 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px 5px;
+    padding: 17px 16px;
     border-radius: 8px;
-    width: 270px;
+    width: 100%;
+}
+
+.stats
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 360px;
+    margin: 29px 0;
 }
 
 .stat-red
@@ -177,6 +193,7 @@ h3
 
 .icon-img
 {
+    margin-left: 1px;
     margin-right: 12px;
 
 }
@@ -191,5 +208,9 @@ h3
 .fraction-denominator
 {
     color: hsla(224, 30%, 27%, 60%);
+    margin-left: 3px;
+}
 
+.result-score-denominator {
+    color: hsl(221, 100%, 96%, 40%);
 }
