@@ -1,0 +1,195 @@
+main 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+h1 {
+    font-size: 68px;
+    font-weight: 800;
+    color: white;
+}
+
+p  
+{
+    color: hsl(241, 100%, 89%);
+}
+
+.normal-text
+{
+
+}
+
+h3
+{
+    display: block;
+    width: 100%;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.dark-header 
+{
+    text-align: left;
+}
+
+.light-header
+{
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}
+
+
+.card-left 
+{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    height: 392px;
+    width: 308px;
+    padding: 60px 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-right
+{
+    background-color: white;
+    width: 308px;
+    padding: 60px 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stat
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.result
+{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compliment-section 
+{
+
+}
+
+.compliment 
+{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+.btn-continue 
+{
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 32px;
+    border: none;
+    border-width: 0px;
+    width: 288px;
+    margin-left: 2px;
+}
+
+.stat 
+{
+    display: flex;
+    flex-direction: row;
+    padding: 18px 16px;
+    border-radius: 8px;
+    width: 270px;
+}
+
+.stat-red
+{
+    background-color: rgba(255, 87, 87, 5%);
+}
+
+.stat-orange
+{
+    background-color: hsla(39, 100%, 56%, 5%);
+}
+
+.stat-green
+{
+    background-color: hsla(166, 100%, 37%, 5%);
+}
+
+.stat-blue
+{
+    background-color: hsla(234, 85%, 45%, 5%);
+}
+
+
+.red-lbl
+{
+    color: hsl(0, 100%, 67%);
+}
+
+.orange-lbl
+{
+    color: hsl(39, 100%, 56%);
+}
+
+.green-lbl
+{
+    color: hsl(166, 100%, 37%);
+}
+
+.blue-lbl
+{
+    color: hsl(234, 85%, 45%);
+}
+
+.icon-label
+{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.icon-img
+{
+    margin-right: 12px;
+
+}
+
+
+.fraction-nominator
+{
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+
+.fraction-denominator
+{
+    color: hsla(224, 30%, 27%, 60%);
+
+}
