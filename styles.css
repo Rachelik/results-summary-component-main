@@ -8,7 +8,7 @@ main {
 
 
 h1 {
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 800;
     color: white;
     margin: 7px 0px;
@@ -17,7 +17,7 @@ h1 {
 h3 {
     display: block;
     width: 100%;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -28,7 +28,7 @@ p {
 .btn-continue {
     color: white;
     font-family: 'Hanken Grotesk', sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
     padding: 16px;
     background-color: hsl(224, 30%, 27%);
@@ -73,7 +73,7 @@ p {
 }
 
 .compliment {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
     color: white;
     margin-bottom: 19px;
@@ -199,27 +199,27 @@ p {
     }
 
     h1 {
-        font-size: 56px;
+        font-size: 3.5rem;
     }
 
     h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     label {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     p {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .compliment {
-        font-size: 24px;
+        font-size: 1.5rem;
         margin-bottom: 12px;
     }
 
