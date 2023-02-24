@@ -50,7 +50,7 @@ table {
 
 
 body {
-    background-image: linear-gradient(white, hsl(221, 100%, 96%));
+    background-image: white;
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 0.9375em;
     min-height: 100vh;
