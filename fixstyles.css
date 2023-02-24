@@ -50,7 +50,6 @@ table {
 
 
 body {
-    /* background-color: hsl(221, 100%, 96%); */
     background-image: linear-gradient(white, hsl(221, 100%, 96%));
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 0.9375em;
@@ -60,6 +59,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.125rem;
+    height: 1080px;
 }
 
 .attribution {
