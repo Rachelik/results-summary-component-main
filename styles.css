@@ -260,4 +260,9 @@ p {
         width: 315px;
     }
 
+    .dark-header {
+        text-align: left;
+        margin: 0;
+        width: 314px;
+    }
 }
