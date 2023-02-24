@@ -193,6 +193,10 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
+    body {
+        justify-content: flex-start;
+    }
+
     main {
         flex-direction: column;
         border-radius: 0;
